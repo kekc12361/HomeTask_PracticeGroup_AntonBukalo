@@ -1,0 +1,88 @@
+#header {
+    width:100%;
+    display: flex;
+    background-color:#76c7c0;
+    height:80px;
+    flex-wrap:wrap;
+    flex-direction: column;
+}
+
+#header .logo{
+    margin-top: 25px;
+}
+.logo p{
+    font-family: "Open Sans ExtraBold";
+    font-size: 30px;
+}
+
+nav{
+    font-family: 'Open Sans Semibold';
+    margin-top:35px;
+    font-size: 13px;
+}
+.menu a{
+    color:#fff;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+.menu a:active{
+    box-shadow:0 3px 0 0  #528b86;
+    background: #62a29e;
+}
+.menu a:hover{
+    border-radius: 10px;
+    box-shadow:0 3px 0 0  #e2534b;
+    background: #e8645a;
+}
+.menu #menu_icon{
+    display: none;
+}
+#line_header{
+    height: 10px;
+    position:absolute;
+    top:70px;
+    width: 100%;
+    background: url("../images/straight_line.png") repeat-x;
+}
+
+
+
+@media screen and (max-width: 1010px) {
+    .menu a{
+        display: none;
+    }
+    .menu #menu_icon{
+        border-radius: 5px;
+        float: right;
+        display: block;
+        color:#fff;
+        font-size:25px;
+        margin-top:-25px;
+    }
+    .menu.responsive{
+        position: relative;
+        top: 45px;
+        z-index: 10000;
+    }
+    .menu.responsive a.icon{
+        position: absolute;
+        top: -45px;
+        right: -0px;
+    }
+
+    .menu.responsive a{
+        background-color:#76c7c0;
+        float: none;
+        display: block;
+        text-align: left;
+        border: solid #62a29e;
+        border-radius: 10px;
+
+    }
+    .menu a:hover{
+        background-color: #e8645a;
+        box-shadow: none;
+    }
+
+
+}

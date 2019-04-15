@@ -1,0 +1,137 @@
+#footer {
+    width: 100%;
+    background-color: #76c7c0;
+    height: auto;
+}
+.s_line{
+    filter: invert(100%);
+    height: 10px;
+    transform: rotate(180deg);
+    z-index: 10000;
+    position: relative;
+    top:-46px;
+    width: 2500px;
+    background: url("../images/straight_line.png") repeat-x;
+}
+#top_footer{
+    padding-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "Open Sans";
+}
+#top_footer .logo{
+    padding-top: 0px;
+}
+
+#contact h1{
+    font-size: 13px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#top_footer #contact span{
+    font-size: 20px;
+    font-family: "Open Sans SemiBold";
+    font-style: italic;
+}
+
+#contact h2{
+    padding-bottom: 15px;
+}
+
+#contact{
+    max-width: 370px;
+    margin-right: 30px;
+    font-family: "Open Sans";
+    color: #fff;
+}
+#company li {
+    font-family: "Open Sans";
+    margin-left: 20px;
+    font-size: 13px;
+    margin-top: 13px;
+    color: #fff;
+}
+#company a{
+    color:#fff;
+}
+
+#footer ul{
+    list-style-image: url('../images/footer_li.png');
+    font-family: "Open Sans ExtraBold";
+    font-size: 20px;
+    color: #4b7e79;
+}
+#footer ul p{
+    margin-bottom: 36px;
+}
+#footer li{
+    font-family: "Open Sans";
+    font-size: 13px;
+    margin-top: 13px;
+    color: #fff;
+}
+#company{
+    margin-right: 100px;
+}
+#blog{
+    font-family: "Open Sans Italic";
+    font-style: italic;
+    color: #fff;
+    max-width: 370px;
+
+
+}
+#blog p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 17px;
+}
+#blog span{
+    font-weight: bold;
+
+}
+#blog h1{
+    font-family: "Open Sans";
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 13px;
+}
+#blog h2{
+    font-family: "Open Sans";
+    font-size: 13px;
+    color: #467672;
+    padding-bottom: 60px;
+}
+.photo_news_footer{
+    background: #5e9f9a url("../images/blog_footer.png")no-repeat center;
+    background-radius: 8px ;
+    border-radius: 8px ;
+    width: 35px;
+    height: 35px;
+    padding: 20px;
+    float: left;
+    margin-right: 17px;
+}
+
+#bottom_footer{
+    height: 50px;
+    background: #6ab3ac;
+}
+#bottom_footer p{
+    font-family: "Open Sans";
+    font-size: 12px;
+    float: left;
+    padding: 20px;
+    color: #fff;
+}
+#bottom_footer #social{
+    padding-top: 15px;
+    margin-right: 2px;
+    text-align: end;
+}
+.social_icon{
+    margin-left: 25px;
+
+}

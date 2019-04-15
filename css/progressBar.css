@@ -1,0 +1,51 @@
+
+.progress-bar{
+    /*dis:flex;*!*/
+    margin: 4px;
+    float: left;
+    text-align: center;
+}
+.barOverflow{
+    position: relative;
+    overflow: hidden;
+    width: 150px; height: 70px;
+    margin-bottom: -14px;
+}
+.bar{
+    position: absolute;
+    top: 0; left: 0;
+    width: 150px; height: 150px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 15px solid #76c7c0;
+    border-bottom-color: #e2534b;
+    border-right-color: #e2534b;
+    transform: rotate(45deg);
+}
+.progress-bar > .left {
+    position: absolute;
+    /*background: #e2534b;*/
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    left: 0;
+    bottom: -4px;
+    overflow: hidden;
+}
+.progress-bar > .right {
+    position: absolute;
+    /*background:#76c7c0;*/
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    right: 0;
+    bottom: -4px;
+    overflow: hidden;
+}
+
+.back {
+    width: 15px;
+    height: 15px;
+    /*background: #76c7c0;*/
+    position: absolute;
+}
