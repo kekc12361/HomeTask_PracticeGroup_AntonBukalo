@@ -10,7 +10,7 @@
     z-index: 10000;
     position: relative;
     top:-46px;
-    width: 2500px;
+    width: 100%;
     background: url("../images/straight_line.png") repeat-x;
 }
 #top_footer{
